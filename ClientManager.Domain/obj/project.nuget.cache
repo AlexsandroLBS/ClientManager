@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "axK0GzTcgyWFvYSUymqaElDpCSRVKpE0I7U+jC/gu1Hp0MRGgSnCFCl2bjexS8P0EJEdCWq9UB1B61jlxD18kw==",
+  "dgSpecHash": "5EXDBpf9xjnc0J6Uv5vdtg/UDeFXprsTLZ9Kdwn0YqpxkqMIq7SgamlKU6gP9xJZbYNqM9OzAGHle7e78x/aBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexsandro_lopes\\Documents\\Workspace\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\albsi\\Documents\\Workspace\\pdi\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alexsandro_lopes\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
+    "C:\\Users\\albsi\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

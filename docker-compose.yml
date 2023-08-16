@@ -1,31 +1,24 @@
-version: '3.8'
-
+version: "3.9"
 services:
-    sqlserver:
-      image: mcr.microsoft.com/mssql/server:2019-latest
-      environment:
-        SA_PASSWORD: "SqlServer2019!"
-        ACCEPT_EULA: "Y"
-        MSSQL_DB: "NovoNomeDoBanco"
-        MSSQL_USER: "userTest"         
-        MSSQL_PASSWORD: "senhaTeste"
-      ports:
-        - "1433:1433"
-
-      expose:
-        - 1433
-      volumes:
-        - sqlserver-data:/var/opt/mssql
-
-volumes:
-  sqlserver-data:
-
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStringSql=Server=database\\MSSQLLocalDB;TrustServerCertificate=True;Database=ClientManagementDB;User Id=sa; Password=Mudar@123
+    ports:
+      - "5102:80" #Swagger
+      - "9102:81" #Api
+    depends_on:
+      - database
   
-  # app:
-  #   build:
-  #     context: ./app
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "5000:80"
-  #   depends_on:
-  #     - sqlserver
+  database:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Mudar@123
+      - MSSQL_DBNAME=ClientManagementDB
+    ports:
+      - "1433:1433"
+  
