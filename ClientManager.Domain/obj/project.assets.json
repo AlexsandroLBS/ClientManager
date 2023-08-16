@@ -33,19 +33,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\albsi\\.nuget\\packages\\": {}
+    "C:\\Users\\alexsandro_lopes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\albsi\\Documents\\Workspace\\desafio-ploomes\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\alexsandro_lopes\\Documents\\Workspace\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
       "projectName": "ClientManager.Domain",
-      "projectPath": "C:\\Users\\albsi\\Documents\\Workspace\\desafio-ploomes\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
-      "packagesPath": "C:\\Users\\albsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\albsi\\Documents\\Workspace\\desafio-ploomes\\ClientManager\\ClientManager.Domain\\obj\\",
+      "projectPath": "c:\\Users\\alexsandro_lopes\\Documents\\Workspace\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
+      "packagesPath": "C:\\Users\\alexsandro_lopes\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\alexsandro_lopes\\Documents\\Workspace\\ClientManager\\ClientManager.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\albsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexsandro_lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -92,7 +92,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

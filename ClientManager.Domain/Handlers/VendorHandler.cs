@@ -18,13 +18,13 @@ namespace ClientManager.Domain.Handlers
             _repository = repository;
         }
         
-        public  ICommandResult Handle(CreateVendorCommand command)
+        public async Task<ICommandResult> Handle(CreateVendorCommand command)
         {
             command.Validate();
             if( command.Invalid )
                 return new GenericCommandResult(false, "", command.Notifications);
-            var vendor = new Vendor(command.VendorCode, command.Name, command.Email, command.CellPhone);
-            _repository.CreateVendor(vendor);
+            var vendor = new Vendor(command.Name, command.Email, command.CellPhone);
+            await _repository.CreateVendor(vendor);
             return new GenericCommandResult(true, "Fornecedor criado com sucesso", vendor);
 
         }

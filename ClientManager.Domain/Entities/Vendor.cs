@@ -4,9 +4,8 @@ namespace ClientManager.Domain.Entities
 {
     public class Vendor //: Entity
     {
-        public Vendor( int vendorCode, string name, string email, string cellPhone) 
+        public Vendor( string name, string email, string cellPhone) 
         {   
-            VendorCode = vendorCode;
             Name = name;
             Email = email;
             CellPhone = cellPhone;

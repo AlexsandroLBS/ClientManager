@@ -19,14 +19,14 @@ namespace ClientManager.Domain.Handlers
             _repository = repository;
         }
         
-        public  ICommandResult Handle(CreateClientCommand command)
+        public async Task<ICommandResult> Handle(CreateClientCommand command)
         {
             command.Validate();
             if( command.Invalid )
                 return new GenericCommandResult(false, "", command.Notifications);
 
-            var client = new Client(command.ClientCode, command.Name, command.DocumentNo, command.Address);
-            _repository.CreateClient(client);
+            var client = new Client(command.Name, command.DocumentNo, command.Address);
+            await _repository.CreateClient(client);
             return new GenericCommandResult(true, "Cliente criado com sucesso", client);
         }
 

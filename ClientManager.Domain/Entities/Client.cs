@@ -6,9 +6,8 @@ namespace ClientManager.Domain.Entities
 {
      public class Client //: Entity
     {
-        public Client(int clientCode, string name, string documentNo, string address)
+        public Client( string name, string documentNo, string address)
         {
-            ClientCode = clientCode;
             Name = name;
             DocumentNo = documentNo;
             Address = address; 

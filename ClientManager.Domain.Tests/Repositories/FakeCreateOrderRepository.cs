@@ -5,17 +5,27 @@ namespace ClientManager.Domain.Tests.Repositories
 {
     public class FakeCreateOrderRepository : IClientManagerRepository
     {
-        public void CreateClient(Client client)
+        public Task CreateClient(Client client)
         {
             throw new NotImplementedException();
         }
 
-        public void CreateOrder(Order order)
+        public Task CreateOrder(Order order)
         {
             throw new NotImplementedException();
         }
 
-        public void CreateVendor(Vendor vendor)
+        public Task CreateVendor(Vendor vendor)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Client>> GetAllClients()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Vendor>> GetAllVendors()
         {
             throw new NotImplementedException();
         }
@@ -25,7 +35,7 @@ namespace ClientManager.Domain.Tests.Repositories
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Order> GetClientOrdersList(int clientCode)
+        public Task<IEnumerable<Order>> GetClientOrdersList(int clientCode)
         {
             throw new NotImplementedException();
         }
@@ -35,17 +45,17 @@ namespace ClientManager.Domain.Tests.Repositories
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Order> GetOrdersList()
+        public Task<IEnumerable<Order>> GetOrdersList()
         {
             throw new NotImplementedException();
         }
 
-        public Vendor GetVendor(int vendorCode)
+        public Task<Vendor> GetVendor(int vendorCode)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Order> GetVendorOrdersList(int vendorCode)
+        public Task<IEnumerable<Order>> GetVendorOrdersList(int vendorCode)
         {
             throw new NotImplementedException();
         }

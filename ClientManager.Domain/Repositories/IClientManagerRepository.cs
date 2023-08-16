@@ -9,13 +9,15 @@ namespace ClientManager.Domain.Repositories
 
         Task<IEnumerable<Order>> GetVendorOrdersList(int vendorCode);
         Task<IEnumerable<Order>> GetClientOrdersList(int clientCode);
-        void CreateOrder(Order order);
+        Task CreateOrder(Order order);
         void UpdateOrder(Order order);
 
         Client GetClient(int clientCode);
-        void CreateClient(Client client);
-
+        Task CreateClient(Client client);
         Task<Vendor> GetVendor(int vendorCode);
-        void CreateVendor(Vendor vendor);
+        Task CreateVendor(Vendor vendor);
+
+        Task<IEnumerable<Client>> GetAllClients();
+        Task<IEnumerable<Vendor>> GetAllVendors();
     }
 }

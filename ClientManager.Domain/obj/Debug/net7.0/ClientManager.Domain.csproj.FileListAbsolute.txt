@@ -10,3 +10,15 @@ C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.D
 C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\refint\ClientManager.Domain.dll
 C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.pdb
 C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ref\ClientManager.Domain.dll
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\bin\Debug\net7.0\ClientManager.Domain.deps.json
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\bin\Debug\net7.0\ClientManager.Domain.dll
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\bin\Debug\net7.0\ClientManager.Domain.pdb
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.csproj.AssemblyReference.cache
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.AssemblyInfoInputs.cache
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.AssemblyInfo.cs
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.csproj.CoreCompileInputs.cache
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.dll
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\refint\ClientManager.Domain.dll
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.pdb
+c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ref\ClientManager.Domain.dll

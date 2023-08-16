@@ -14,25 +14,25 @@ namespace ClientManager.Domain.Infra.Repositories
         {
             _context = context;
         }
-        public void CreateClient(Client client)
+        public async Task  CreateClient(Client client)
         {
-            _context.Clients.AddAsync(client);
-            _context.SaveChangesAsync();
+            await _context.Clients.AddAsync(client);
+            await _context.SaveChangesAsync();
         }
 
-        public void CreateOrder(Order order)
+        public async Task CreateOrder(Order order)
         {
-            _context.Orders.AddAsync(order);
-            _context.SaveChangesAsync();
+            await _context.Orders.AddAsync(order);
+            await _context.SaveChangesAsync();
         }
 
-        public void CreateVendor(Vendor vendor)
+        public async Task CreateVendor(Vendor vendor)
         {
-            _context.Vendors.AddAsync(vendor);
-            _context.SaveChangesAsync();
+            await _context.Vendors.AddAsync(vendor);
+            await _context.SaveChangesAsync();
         }
 
-        public  Client GetClient(int clientCode)
+        public Client GetClient(int clientCode)
         {
             var client = _context.Clients.First(x => x.ClientCode == clientCode);
             return client;
@@ -70,8 +70,19 @@ namespace ClientManager.Domain.Infra.Repositories
 
         public void UpdateOrder(Order order)
         {
-            _context.Entry(order).State = EntityState.Modified;
+            _context.Orders.Update(order);
             _context.SaveChanges();
+        }
+
+
+        public async  Task<IEnumerable<Client>> GetAllClients()
+        {
+            return await _context.Clients.ToListAsync();
+        }
+
+        public async  Task<IEnumerable<Vendor>> GetAllVendors()
+        {
+            return await _context.Vendors.ToListAsync();
         }
     }
 }

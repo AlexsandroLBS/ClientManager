@@ -20,32 +20,36 @@ namespace ClientManager.Domain.Handlers
             _repository = repository;
         }
 
-        public ICommandResult Handle(CreateOrderCommand command)
+        public async Task<ICommandResult> Handle(CreateOrderCommand command)
         {
             command.Validate();
             if( command.Invalid )
                 return new GenericCommandResult(false, "", command.Notifications);
             var order = new Order(command.OrderNumber, command.ClientCode, command.VendorCode, command.CreatedAt);
-            _repository.CreateOrder(order);
+            await _repository.CreateOrder(order);
             return new GenericCommandResult(true, "Ordem de pedido criada com sucesso!", order);
         }
 
-        public ICommandResult Handle(MarkOrderAsDoneCommand command)
+        public async Task<ICommandResult> Handle(MarkOrderAsDoneCommand command)
         {
             var order = _repository.GetOrderByOrderNo(command.OrderNumber);
+            if (order.Done == true) return new GenericCommandResult(false, "Essa ordem ja foi finalizada!", order);
+            if (order.Canceled == true) return new GenericCommandResult(false, "Essa ordem ja foi cancelada!", order);
             order.MarkAsDone();
             _repository.UpdateOrder(order);
 
             return new GenericCommandResult(true, "Ordem finalizada com sucesso!", order);
         }
 
-        public ICommandResult Handle(MarkOrderAsCancelledCommand command)
+        public async Task<ICommandResult> Handle(MarkOrderAsCancelledCommand command)
         {
             var order = _repository.GetOrderByOrderNo(command.OrderNumber);
+            if (order.Done == true) return new GenericCommandResult(false, "Essa ordem ja foi finalizada!", order);
+            if (order.Canceled == true) return new GenericCommandResult(false, "Essa ordem ja foi cancelada!", order);
             order.MarkAsCancelled();
             _repository.UpdateOrder(order);
 
-             return new GenericCommandResult(true, "Ordem finalizada com sucesso!", order);
+            return new GenericCommandResult(true, "Ordem finalizada com sucesso!", order);
         }
     }
 }

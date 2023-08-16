@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClientManager.Domain.Tests
-build_property.ProjectDir = c:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain.Tests\
+build_property.ProjectDir = c:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain.Tests\

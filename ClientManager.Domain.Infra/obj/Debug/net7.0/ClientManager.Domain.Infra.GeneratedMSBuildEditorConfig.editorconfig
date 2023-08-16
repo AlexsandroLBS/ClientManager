@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClientManager.Domain.Infra
-build_property.ProjectDir = C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain.Infra\
+build_property.ProjectDir = C:\Users\alexsandro_lopes\Documents\Workspace\ClientManager\ClientManager.Domain.Infra\
