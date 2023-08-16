@@ -2,7 +2,7 @@
 
 Desafio teste para o processo seletivo para o cargo de Dessenvolvedor BackEnd C# na [Ploomes](https://www.ploomes.com/). O projeto consiste em uma aplicação para gerenciamento de ordens de pedico, com criação de clientes e fornecedores e criação de ordens utilizando estes. Além disso, cancelamento e finalização de pedidos.
 
-No que diz respeito a padroes de projeto, a aplicação segue o padrão [CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) (Command and Query Responsibility Segregation) de forma que as depencias ficam bem segredadas. E para gerenciamento de banco e orientação de dados foi utilizado [Entity Framework](https://learn.microsoft.com/en-us/aspnet/entity-framework)
+No que diz respeito a padrões de projeto, a aplicação segue o padrão [CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) (Command and Query Responsibility Segregation) de forma que as depencias ficam bem segredadas. E para gerenciamento de banco e orientação de dados foi utilizado [Entity Framework](https://learn.microsoft.com/en-us/aspnet/entity-framework)
 
 ## Execução
 
