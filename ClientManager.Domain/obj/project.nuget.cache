@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eBTDCekD964v7C1bgqW369YMU2Z84QuE2whBDj6lmew4VPJoMpzIXoVyH8GTwZEOlRZBK6x49z3DGk8lr7NS6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\albsi\\Documents\\Workspace\\desafio-ploomes\\ClientManager\\ClientManager.Domain\\ClientManager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\albsi\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

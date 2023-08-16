@@ -1,0 +1,12 @@
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\bin\Debug\net7.0\ClientManager.Domain.deps.json
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\bin\Debug\net7.0\ClientManager.Domain.dll
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\bin\Debug\net7.0\ClientManager.Domain.pdb
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.csproj.AssemblyReference.cache
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.AssemblyInfoInputs.cache
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.AssemblyInfo.cs
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.dll
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\refint\ClientManager.Domain.dll
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ClientManager.Domain.pdb
+C:\Users\albsi\Documents\Workspace\desafio-ploomes\ClientManager\ClientManager.Domain\obj\Debug\net7.0\ref\ClientManager.Domain.dll
